@@ -109,6 +109,25 @@ b {
   padding: 60px 60px 20px 20px;
 }
 
+.main-title {
+  margin-bottom: 5px;
+  margin-left: 40px;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.main-description {
+  margin-bottom: 60px;
+  margin-left: 40px;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
 .section {
   margin: 10px 0 40px 40px;
 }
@@ -120,6 +139,10 @@ b {
   font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.section-title__main {
+  border-bottom: 1px solid var(--gray);
 }
 
 .section ul {
