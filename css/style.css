@@ -160,6 +160,21 @@ b {
   left: 0;
 }
 
+
+.section ul ul {
+  padding-left: 2px;
+}
+
+.section ul ul li {
+  position: relative;
+}
+
+.section ul ul li:before {
+  content: "♦";
+  position: absolute;
+  left: 3px;
+}
+
 .section a {
   text-decoration: none;
   color: var(--brown);
