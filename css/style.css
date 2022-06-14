@@ -78,3 +78,49 @@ b {
 .nav-link:hover {
   color: var(--white);
 }
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  padding: 20px 60px 15px;
+  background: var(--gray);
+  color: var(--light-gray);
+}
+
+.copyright::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: -4px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../assets/img/github.svg);
+}
+
+.copyright {
+  position: relative;
+  flex-grow: 1;
+  padding-left: 40px;
+}
+
+.copyright a {
+  color: var(--light-gray);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.copyright a:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.copyright-logo {
+  width: 80px;
+}
+
+.copyright-logo a {
+  text-decoration: none;
+}
