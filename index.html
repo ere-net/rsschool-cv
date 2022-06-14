@@ -5,9 +5,158 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV Alena Eremetova</title>
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./assets/favicon.ico">
 </head>
 <body>
-  <h1>Alena Eremetova</h1>
+  <div class="container">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#code">Code Examples</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#languages">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main-container">
+      <aside class="aside">
+        <div class="avatar">
+          <img class="avatar-img" src="./assets/img/alena-eremetova.jpg" alt="Alena Eremetova">
+        </div>
+
+        <section class="section section-contacts" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li><b>Location:</b> Russia, Izhevsk</li>
+            <li><b>Phone:</b> <a href="tel:+79501633641" target="_blank">+7-950-163-36-41</a></li>
+            <li><b>E-mail:</b> <a href="mailto:ere-net@mail.ru" target="_blank">ere-net@mail.ru</a></li>
+            <li><b>GitHub:</b> <a href="https://github.com/ere-net" target="_blank">ere-net</a></li>
+            <li><b>Discord:</b> ere-net#9155</li>
+            <li><b>Telegram:</b> <a href="https://t.me/alena_eremetova" target="_blank">alena_eremetova</a></li>
+          </ul>
+        </section>
+
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript Basics</li>
+            <li>Git, GitHub</li>
+            <li>VSCode</li>
+            <li>Adobe Photoshop, Adobe Illustrator, Adobe InDesign</li>
+          </ul>
+        </section>
+
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Russian (native)</li>
+            <li>English B2 (Intermediate)</li>
+            <li>Spanish A2</li>
+          </ul>
+        </section>
+      </aside>
+
+      <main class="main">
+        <h1 class="main-title">Alena Eremetova</h1>
+        <p class="main-description">Junior Frontend Developer</p>
+
+        <section class="section" id="about">
+          <h2 class="section-title section-title__main">About me</h2>
+          <p>I&nbsp;am 35 years old and I&nbsp;once again decided to change my profession. I&nbsp;like coding sites and I&nbsp;have an interest in programming. Now my goal is to learn more new information and apply it in real projects. I&nbsp;am interested in working with a&nbsp;team. I&nbsp;think my life experience is my advantage.</p>
+        </section>
+
+        <section class="section" id="code">
+          <h2 class="section-title section-title__main">Code Examples</h2>
+          <ul>
+            <li>
+              <a href="https://www.codewars.com/users/ere-net/" target="_blank">Codewars Profile</a>
+            </li>
+          </ul>
+          <pre>
+
+function isDivideBy(number, a, b) {
+  if ((number % a === 0) && (number % b === 0)) {
+    return true;
+  }
+  return false;
+}</pre>
+        </section>
+
+        <section class="section" id="projects">
+          <h2 class="section-title section-title__main">Projects</h2>
+          <ul>
+            <li><a href="https://ere-net.github.io/rsschool-cv/" target="_blank">CV</a>, RSSchool Project</li>
+            <li><a href="./projects/quiz/index.html" target="_blank">JS Quiz</a></li>
+            <li><a href="https://ere-net.w3spaces.com" target="_blank">Landing</a> about my plans, adaptive, responsive</li>
+            <li><a href="https://github.com/ere-net/96122-pink" target="_blank">Pink Project</a>, HTMLAcademy, Advanced HTML & CSS</li>
+            <li><a href="https://github.com/ere-net/96122-gllacy" target="_blank">Gllacy Project</a>, HTMLAcademy, Basic HTML & CSS</li>
+          </ul>
+        </section>
+
+        <section class="section" id="experience">
+          <h2 class="section-title section-title__main">Experience</h2>
+          <ul>
+            <li>LaTeX & InDesign layout designer in a book publishing house (2010&ndash;2021)</li>
+            <li>SEO-optimizer in a web-studio (2009&ndash;2010)</li>
+            <li>1C-specialist (2007&ndash;2009)</li>
+          </ul>
+        </section>
+
+        <section class="section" id="education">
+          <h2 class="section-title section-title__main">Education</h2>
+          <ul>
+            <li>Master of Mathematics in <a href="http://inter.istu.ru/" target="_blank">Kalashnikov Izhevsk State Technical University</a></li>
+            <li>Courses 
+              <ul>
+                <li>RS School JavaScript/Front-end course. Stage 0 (in progress)</li>
+                <li>HTMLAcademy, <a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">Basic HTML & CSS</a></li>
+                <li>HTMLAcademy, <a href="https://htmlacademy.ru/intensive/adaptive" target="_blank">Advanced HTML & CSS</a></li>
+              </ul>
+            </li>
+            <li>Master of Management in <a href="https://www.mveu.ru/" target="_blank">MVEU</a></li>
+            <li>Yoga Instructor <a href="https://russianyogafederation.ru/" target="_blank">YTTC-200</a></li>
+          </ul>
+        </section>
+      </main>
+    </div>
+        
+    <footer class="footer">
+      <div class="copyright">
+        Made by <a href="https://github.com/ere-net/" target="_blank">ere-net</a>, 2022
+      </div>
+      <div class="copyright-logo">
+        <a href="https://rs.school/js/" target="_blank">
+          <img src="./assets/img/rs_school_js.svg" alt="RSSchool">
+        </a>
+      </div>
+    </footer>
+
+  </div>
 </body>
 </html>
